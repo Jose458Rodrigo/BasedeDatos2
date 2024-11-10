@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* Encabezado principal */
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+  }
+
+  /* Subtítulo */
+  h1 + h1 {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  /* Estilos del enlace "Agregar" */
+  p a {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  p a:hover {
+    text-decoration: underline;
+  }
+
+  /* Estilos de la lista de reservas */
+  #lista {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  /* Estilo de los elementos de la lista */
+  #lista li {
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilo de la barra de progreso */
+  progress {
+    width: 100%;
+    height: 20px;
+    margin: 20px 0;
+  }
+
+  /* Estilos de la carga de contenido */
+  .cargando {
+    color: #555;
+    font-size: 16px;
+    text-align: center;
+  }
